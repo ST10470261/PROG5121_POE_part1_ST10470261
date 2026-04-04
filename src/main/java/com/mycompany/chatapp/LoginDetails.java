@@ -52,7 +52,7 @@ public class LoginDetails {
     
     public String returnLoginStatus(boolean success, String fName, String lName) {
         if (success){
-            return "Welcome " + fName + "," + lName + " it is great to see you again."; 
+            return "Welcome " + fName + lName + "," + " it is great to see you again."; 
         }else{ 
             return "UserName or password is incorrect, please try again.";
         }

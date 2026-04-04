@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.chatapp.LoginDetailsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! -- in com.mycompany.chatapp.LoginDetailsTest
-com.mycompany.chatapp.LoginDetailsTest.testReturnLoginStatus -- Time elapsed: 0.028 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Welcome Nhlanhla, Cindi it is great to see you again.> but was: <Welcome Nhlanhla,Cindi it is great to see you again.>
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! -- in com.mycompany.chatapp.LoginDetailsTest
+com.mycompany.chatapp.LoginDetailsTest.testReturnLoginStatus -- Time elapsed: 0.023 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Welcome Nhlanhla Cindi, it is great to see you again.> but was: <Welcome NhlanhlaCindi, it is great to see you again.>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
@@ -11,6 +11,24 @@ org.opentest4j.AssertionFailedError: expected: <Welcome Nhlanhla, Cindi it is gr
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
 	at com.mycompany.chatapp.LoginDetailsTest.testReturnLoginStatus(LoginDetailsTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.mycompany.chatapp.LoginDetailsTest.testRegisterUser -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Username successfully captured.
+Password successfully captured.
+Cell number successfully captured.> but was: <Username succcessfully captured.
+Password successfully captured.
+Cell number successfully captured.>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.mycompany.chatapp.LoginDetailsTest.testRegisterUser(LoginDetailsTest.java:44)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)

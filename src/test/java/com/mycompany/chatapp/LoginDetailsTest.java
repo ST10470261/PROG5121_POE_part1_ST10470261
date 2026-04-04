@@ -54,7 +54,7 @@ public class LoginDetailsTest {
 
     @Test
     public void testReturnLoginStatus() {
-        String expected = "Welcome Nhlanhla, Cindi it is great to see you again.";
+        String expected = "Welcome Nhlanhla Cindi, it is great to see you again.";
         String actual = login.returnLoginStatus(true, "Nhlanhla", "Cindi");
         assertEquals(expected, actual);
     }
