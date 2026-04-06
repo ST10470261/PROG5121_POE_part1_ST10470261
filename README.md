@@ -31,7 +31,7 @@ ChatApp is a Java-based console application developed for Programming 1A (Part 1
 
 ---
 ## Technical Stack
-*  Language: Java 8+
+*  Language: Java 
 
 *  IDE: NetBeans
 
