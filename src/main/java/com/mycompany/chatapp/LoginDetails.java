@@ -9,6 +9,14 @@ public class LoginDetails {
     public boolean checkUserName(String username){
         return username.contains("_") && username.length() <= 5;
     }
+    /*
+    Code Attribution:
+    Source:Gemini AI (Google)
+    Propmt Used:"Please may you assist me in how I can implement the "Password complexity" for the password input input in my project."
+    Date Accessed:03/04/2026
+    Description:"To implement password complexity, you need to move beyond a simple length check and actually "inspect" each character the user types. The most common way to do this in Java is by using a loop and the Character class."
+    Modification: Implemented the  logic into the checkPasswordComplexity method and used boolean flags for the validation.
+    */
     
     public boolean checkPasswordComplexity(String password){
         boolean hasUpper = false;
@@ -25,6 +33,14 @@ public class LoginDetails {
         return hasUpper && hasNum && hasSpecial;
     }
     
+    /*
+    Code Attribution:
+    Source:Gemini AI (Google)
+    Propmt Used:"Please may you assist me in how I can implement the "+27" for the cell phone number input in my project."
+    Date Accessed:03/04/2026
+    Description:"To implement the +27 requirement, you need to combine a Regex pattern in your logic class with a User Prompt in your main class. This ensures the user knows what to type, and your code knows how to verify it."
+    Modification: Implemented the suggested Regex pattern in the LoginDetails class.
+    */
     public boolean checkCellPhoneNumber(String cell){
         return cell.matches("^\\+27[0-9]{9}$");
     }
@@ -42,7 +58,7 @@ public class LoginDetails {
         
         this.registeredUsername = user;
         this.registeredPassword = pass;
-        return "Username succcessfully captured.\nPassword successfully captured.\nCell number successfully captured.";
+        return "Username successfully captured.\nPassword successfully captured.\nCell number successfully captured.";
         
     }
     
