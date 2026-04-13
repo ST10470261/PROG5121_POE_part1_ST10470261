@@ -8,7 +8,7 @@ Group           : 03
 
 Module          : PROG5121
 
-YouTube video   : <>
+YouTube video   : [<https://youtu.be/VXZYZdZVwtk>]
 
 ---
 ## Project Overview
