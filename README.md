@@ -1,6 +1,6 @@
 # PROG5121_POE_part1_ST10470261
 ---
-Name & Surname  : Nhlnhla Cindi
+Name & Surname  : Nhlanhla Cindi
 
 Student number  : ST10470261
 
